@@ -1,12 +1,12 @@
 
-def add(self, number1, number2):
-    return number1 + number2
+def add(number_1, number_2):
+    return f"The answer is {number_1 + number_2}"
+    
+def subtract(number_1, number_2):
+    return f"The answer is {number_1 - number_2}"
 
-def subtract(self, number1, number2):
-    return number1 - number2
-
-def multiply(self, number1, number2):
-    return number1 * number2
-
-def divide(self, number1, number2):
-    return number1 / number2
+def multiply(number_1, number_2):
+    return f"The answer is {number_1 * number_2}"
+    
+def divide(number_1, number_2):
+    return f"The answer is {int(number_1 / number_2)}"
